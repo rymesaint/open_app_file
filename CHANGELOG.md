@@ -1,3 +1,5 @@
+## 4.0.4
+* Migrated to support Built-in Kotlin (AGP 9 compatibility) by conditionally applying Kotlin Gradle Plugin.
 ## 4.0.3
 * Fixed issue with file opening on Windows platform
 * Improved error handling for unsupported file types
