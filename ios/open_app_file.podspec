@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'open_app_file'
-  s.version          = '3.2.2'
+  s.version          = '4.0.5'
   s.summary          = 'Open app file library.'
   s.description      = <<-DESC
 Open app file library.
@@ -12,10 +12,10 @@ Open app file library.
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Yendoplan' => 'it@yendoplan.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'Classes/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'open_app_file/Sources/open_app_file/**/*.{h,m}'
+  s.public_header_files = 'open_app_file/Sources/open_app_file/**/*.h'
   s.dependency 'Flutter'
-  
-  s.ios.deployment_target = '8.0'
+
+  s.ios.deployment_target = '12.0'
 end
 

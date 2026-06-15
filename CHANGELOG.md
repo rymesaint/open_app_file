@@ -1,5 +1,10 @@
-## 4.0.4
+## 4.0.6
 * Migrated to support Built-in Kotlin (AGP 9 compatibility) by conditionally applying Kotlin Gradle Plugin.
+## 4.0.5
+* Added Swift Package Manager support for iOS (Package.swift at the package root; sources moved to `ios/open_app_file/Sources`)
+## 4.0.4
+* Fixed compatibility issues with Flutter 3.27.2 (credit @rymesaint)
+* Restored the fix for the Linux files open with special characters (credit @aws1313)
 ## 4.0.3
 * Fixed issue with file opening on Windows platform
 * Improved error handling for unsupported file types
