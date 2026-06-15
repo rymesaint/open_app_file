@@ -1,7 +1,7 @@
 name: open_app_file
 description: A plugin to open files the app has permission to access with default system-provided applications.
 version: 4.0.4
-homepage: https://github.com/yendoplan/open_app_file
+homepage: https://github.com/rymesaint/open_app_file
 
 dependencies:
   flutter:
