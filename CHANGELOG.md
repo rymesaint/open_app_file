@@ -1,3 +1,5 @@
+## 4.0.6
+* Migrated to support Built-in Kotlin (AGP 9 compatibility) by conditionally applying Kotlin Gradle Plugin.
 ## 4.0.5
 * Added Swift Package Manager support for iOS (Package.swift at the package root; sources moved to `ios/open_app_file/Sources`)
 ## 4.0.4
